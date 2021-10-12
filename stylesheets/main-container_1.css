@@ -1,0 +1,73 @@
+#ph1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.niveau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon_cercle {
+    color: #C90205;
+    font-size: 1rem;
+}
+
+.main-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.toutes_reponses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.reponses {
+    width: 10vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.reponses:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #C90205;
+}
+
+.valider_question {
+    margin: 40px;
+    color: white;
+    background-color: #C90205;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.questionnaire {
+    border-top: 0.5px solid rgb(192, 192, 192);
+    margin-top: 10px;
+}
+
+#ph1 {
+    margin-top: 50px;
+}

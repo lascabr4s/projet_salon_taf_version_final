@@ -1,0 +1,26 @@
+p#p-footer {
+    font-size: 0.6rem;
+}
+
+#i_footer {
+    font-size: 0.9rem;
+}
+
+p#p-footer {
+    font-size: 10px;
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    font-size: 1rem;
+}
+
+
+/* .footer>i {
+    font-size: 1.3rem;
+} */

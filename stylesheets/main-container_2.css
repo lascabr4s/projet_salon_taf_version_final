@@ -1,0 +1,148 @@
+.jeux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    /*TEMP*/
+}
+
+#icon_jeux {
+    color: #C90205;
+    font-size: 3rem;
+    transform: rotate(330deg);
+}
+
+.les_niveaux {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 3rem 0;
+    width: 60%;
+    gap: 1rem;
+}
+
+.niv {
+    position: relative;
+    width: 180px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #C90205;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.niv .text {
+    color: #000;
+    position: absolute;
+    bottom: 10px;
+}
+
+.niv:hover {
+    background-color: #C90205;
+    color: white;
+    cursor: pointer;
+}
+
+.niv_hover {
+    background-color: #C90205;
+    color: white;
+}
+
+.niv:hover .text {
+    color: white !important;
+}
+
+.i_stars {
+    font-size: 2.8rem;
+}
+
+.i_stars1 {
+    font-size: 3.7rem;
+}
+
+.les_jeux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.i_icon {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.jeux_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.jeux_content p {
+    font-size: 0.7rem;
+}
+
+.jeux-content-code {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.jeux-content-code {
+    margin-top: 10px;
+}
+
+.code {
+    color: white;
+    /* margin-top: 1rem; */
+}
+
+.code1 {
+    background-color: #1834cf;
+    height: 13px;
+    width: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#code2 {
+    background-color: #ca7e00;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+#code3 {
+    background-color: #cdca00;
+    height: 15px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+.code4 {
+    background-color: #c40008;
+    height: 15px;
+    width: 55px;
+    border-radius: 5px;
+}
